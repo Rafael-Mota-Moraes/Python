@@ -7,7 +7,7 @@
 # else:
 #     print('Sair')
 
-# Tabela verdade do true
+# Tabela verdade do and
 print(True and True)
 print(True and False)
 print(False and True)
