@@ -4,17 +4,17 @@ informe se este número é par ou ímpar. Caso o usuário não digite um número
 inteiro, informe que não é um número inteiro.
 """
 
-# num = input('Digite um número inteiro: ')
+num = input('Digite um número inteiro: ')
 
-# try:
-#     num = int(num)
+try:
+    num = int(num)
 
-#     if num % 2 == 0:
-#         print('Número é par')
-#     else:
-#         print('Número é impar')
-# except:
-#     print('Digite um número válido!')
+    if num % 2 == 0:
+        print('Número é par')
+    else:
+        print('Número é impar')
+except:
+    print('Digite um número válido!')
 
 
 """
@@ -23,20 +23,20 @@ descrito, exiba a saudação apropriada. Ex.
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
 
-# hora = input('Digite a hora atual: ')
+hora = input('Digite a hora atual: ')
 
-# try:
-#     hora = int(hora)
+try:
+    hora = int(hora)
 
-#     if hora >= 0 and hora <= 11:
-#         print('Bom Dia')
-#     elif hora >= 12 and hora <= 17:
-#         print('Boa tarde')
-#     elif hora >= 18 and hora <= 23:
-#         print('Boa noite')
+    if hora >= 0 and hora <= 11:
+        print('Bom Dia')
+    elif hora >= 12 and hora <= 17:
+        print('Boa tarde')
+    elif hora >= 18 and hora <= 23:
+        print('Boa noite')
 
-# except:
-#     print('Digite uma hora válida')
+except:
+    print('Digite uma hora válida')
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
@@ -53,4 +53,3 @@ elif tamanho_nome >= 5 and tamanho_nome <= 6:
     print('Seu nome é normal')
 elif tamanho_nome > 6:
     print('Seu nome é grande')
-    
